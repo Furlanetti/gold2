@@ -96,7 +96,7 @@
 				<ul class="nav nav-list">
 					<li <?php if(strpos($this->here, 'user') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-group"></i>
+							<i class="icon-user"></i>
 							<span>Usuários</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
@@ -119,8 +119,8 @@
 					</li>
 					<li <?php if(strpos($this->here, 'categoryPointsSale') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-certificate"></i>
-							<span>Categorias de Ponto de Venda</span>
+							<i class="icon-th-list"></i>
+							<span>Categorias de PV</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
@@ -138,42 +138,42 @@
 							</li>							
 						</ul>
 					</li>
-					<li <?php if(strpos($this->here, 'recipe') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'pointSales') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-laptop"></i>
+							<i class="icon-shopping-cart"></i>
 							<span>Pontos de Venda</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'recipes/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/recipes/new/' ?>">
+							<li <?php if(strpos($this->here, 'pointSales/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/pointSales/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'recipes/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/recipes/index/' ?>">
+							<li <?php if(strpos($this->here, 'pointSales/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/pointSales/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
 							</li>							
 						</ul>
 					</li>				
-					<li <?php if(strpos($this->here, 'team') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'categoryRecipe') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-group"></i>
-							<span>Categoria de Receita</span>
+							<i class="icon-list"></i>
+							<span>Categoria Receita</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
 							<li <?php if(strpos($this->here, 'categoryRecipe/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/new/' ?>">
+								<a href="<?php echo $this->webroot . 'admin/categoryRecipe/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'teams/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/index/' ?>">
+							<li <?php if(strpos($this->here, 'categoryRecipe/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/categoryRecipe/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
@@ -182,7 +182,7 @@
 					</li>
 					<li <?php if(strpos($this->here, 'recipe') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-group"></i>
+							<i class="icon-list-alt"></i>
 							<span>Receita</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
@@ -201,84 +201,84 @@
 							</li>							
 						</ul>
 					</li>
-					<li <?php if(strpos($this->here, 'team') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'goldClub') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
 							<i class="icon-group"></i>
 							<span>Gold Club</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'team/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/new/' ?>">
+							<li <?php if(strpos($this->here, 'goldClub/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/goldClub/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'teams/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/index/' ?>">
+							<li <?php if(strpos($this->here, 'goldClub/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/goldClub/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
 							</li>							
 						</ul>
 					</li>
-					<li <?php if(strpos($this->here, 'team') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'contact') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-group"></i>
+							<i class="icon-envelope"></i>
 							<span>Contatos</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'team/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/new/' ?>">
+							<li <?php if(strpos($this->here, 'contact/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/contact/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'teams/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/index/' ?>">
+							<li <?php if(strpos($this->here, 'contact/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/contact/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
 							</li>							
 						</ul>
 					</li>
-					<li <?php if(strpos($this->here, 'team') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'bookRecipe') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-group"></i>
+							<i class="icon-book"></i>
 							<span>Livro de Receitas</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'team/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/new/' ?>">
+							<li <?php if(strpos($this->here, 'bookRecipe/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/bookRecipe/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'teams/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/index/' ?>">
+							<li <?php if(strpos($this->here, 'bookRecipe/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/bookRecipe/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
 							</li>							
 						</ul>
 					</li>
-					<li <?php if(strpos($this->here, 'team') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'indications') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
-							<i class="icon-group"></i>
-							<span>Indicação Café Premium</span>
+							<i class="icon-glass"></i>
+							<span>Café Premium</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'team/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/new/' ?>">
+							<li <?php if(strpos($this->here, 'indications/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/indications/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'teams/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/index/' ?>">
+							<li <?php if(strpos($this->here, 'indications/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/indications/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>

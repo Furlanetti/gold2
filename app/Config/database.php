@@ -61,7 +61,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'site_focus',
+		'database' => 'gold',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
