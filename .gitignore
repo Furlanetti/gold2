@@ -1,0 +1,31 @@
+-# User specific & automatically generated files #
+-#################################################
+/app/tmp/**/*
+/app/webroot/files/*
+-/lib/Cake/Console/Templates/skel/tmp/
+-/plugins
+-/vendors
+-/build
+-/dist
+-/tags
+-
+-# OS generated files #
+-######################
+-.DS_Store
+-.DS_Store?
+-._*
+-.Spotlight-V100
+-.Trashes
+-Icon?
+-ehthumbs.db
+-Thumbs.db
+
+*.log
+
+app/tmp/cache/persistent/myapp_cake_core_cake_dev_pt-br
+
+*.log
+
+*.log
+
+app/tmp/cache/persistent/myapp_cake_core_file_map

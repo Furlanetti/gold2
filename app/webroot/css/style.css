@@ -1,0 +1,47 @@
+/* Admin */
+
+.navbar .brand img{
+	width: 30px;
+	margin-top: -5px
+}
+
+.navbar .container-fluid{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav .light-grey{
+	background: #666;
+}
+
+.nav .user-profile{
+	border: 0;
+}
+
+.error-message{
+	color: rgb(209, 0, 0) !important;
+	margin: 5px 0;
+}
+
+.th-actions{
+	width: 80px !important;
+}
+
+.td-actions{
+	text-align: center !important;
+}
+
+/* Login */
+
+.login-layout{
+	margin-top: 30px;
+}
+
+.login-layout .logo{
+	width: 40px;
+}
+
+.team_gallery_thumb{
+	height: 150px !important; 
+	width: 150px !important; 
+}
