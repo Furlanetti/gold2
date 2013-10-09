@@ -180,21 +180,21 @@
 							</li>							
 						</ul>
 					</li>
-					<li <?php if(strpos($this->here, 'team') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'recipe') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
 							<i class="icon-group"></i>
 							<span>Receita</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'team/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/new/' ?>">
+							<li <?php if(strpos($this->here, 'recipes/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/recipes/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'teams/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/team/index/' ?>">
+							<li <?php if(strpos($this->here, 'recipes/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/recipes/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
