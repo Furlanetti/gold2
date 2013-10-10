@@ -20,7 +20,9 @@
 				<?php foreach($gold as $i => $goldclub) : ?>
 					<tr class="odd">
 						<td><?=$goldclub['GoldClub']['name']?></td>
-						<td><?=$goldclub['GoldClub']['content']?></td>
+						<td><?php if($goldclub['GoldClub']['content']=="D"){echo "Diabetes";}
+								  elseif($goldclub['GoldClub']['content']=="P"){echo "Perca de Peso";}
+								  elseif($goldclub['GoldClub']['content']=="V"){echo "Vida Saudável";}?></td>
 						<td><?=$goldclub['GoldClub']['nasc_date']?></td>
 						<td><?php if($goldclub['GoldClub']['sex']=="M"){echo "Masculino";}
 							elseif($goldclub['GoldClub']['sex']=="F"){echo "Feminino";}?></td>

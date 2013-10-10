@@ -4,6 +4,8 @@ class GoldClubController extends AppController {
 
     public $name = 'GoldClub';
 
+    //var $helpers = array('CakePtbr.Formatacao');
+
     public $uses = array('GoldClub');
 
     public function admin_index(){

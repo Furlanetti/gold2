@@ -20,6 +20,8 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+ //CakePlugin::load('CakePtbr'); // Carrega um único plugin
+//CakePlugin::load('CakePtbr', array('bootstrap' => true));
 /**
  * CakePHP Debug Level:
  *

@@ -38,7 +38,12 @@
 
 			<div class="control-group">
 				<label for="GoldClub">Data de Nascimento</label>
-				<?php echo $this->Form->input('GoldClub.nasc_date', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Data Nascimento', 'style' => 'width: 95%;')); ?>
+				<?php echo $this->Form->input('GoldClub.nasc_date', 
+					array('label' => false, 'title' => 'Nome',
+						'data-rule-required' => 'true',
+						'placeholder' => '__/__/____',
+						'style' => 'width: 95%;',
+						'type' => 'text')); ?>
 			</div>
 
 			<div class="control-group">
@@ -47,7 +52,7 @@
 				<?php echo $this->Form->input('GoldClub.receive_inf', 
 					array( 'type'=>'select', 
 					'options' => array('S'=>'Sim','N'=>'Não'), 
-					'label' =>'Receber informações?' 
+					'label' =>'Deseja receber informações?' 
 				) );
 				?>
 			</div>
