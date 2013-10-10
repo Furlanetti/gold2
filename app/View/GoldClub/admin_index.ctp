@@ -22,7 +22,8 @@
 						<td><?=$goldclub['GoldClub']['name']?></td>
 						<td><?=$goldclub['GoldClub']['content']?></td>
 						<td><?=$goldclub['GoldClub']['nasc_date']?></td>
-						<td><?=$goldclub['GoldClub']['sex']?></td>
+						<td><?php if($goldclub['GoldClub']['sex']=="M"){echo "Masculino";}
+							elseif($goldclub['GoldClub']['sex']=="F"){echo "Feminino";}?></td>
 						<td class="td-actions">
 							<div class="hidden-phone visible-desktop btn-group">
 

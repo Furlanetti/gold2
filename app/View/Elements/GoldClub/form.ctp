@@ -15,13 +15,25 @@
 			</div>
 
 			<div class="control-group">
-				<label for="GoldClub">Sexo</label>
-				<?php echo $this->Form->input('GoldClub.sex', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Sex', 'style' => 'width: 95%;')); ?>
+				<?php echo $this->Form->input('GoldClub.sex', 
+					array( 'type'=>'select', 
+					'options' => array('M'=>'Masculino','F'=>'Feminino'), 
+					'label' =>'Selecione o sexo' 
+				) );
+				?>
+
+				<?php //echo $this->Form->input('GoldClub.sex', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Sex', 'style' => 'width: 95%;')); ?>
 			</div>
 
 			<div class="control-group">
-				<label for="GoldClub">Conteúdo</label>
-				<?php echo $this->Form->input('GoldClub.content', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Conteúdo', 'style' => 'width: 95%;')); ?>
+				<?php //echo $this->Form->input('GoldClub.content', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Conteúdo', 'style' => 'width: 95%;')); ?>
+
+				<?php echo $this->Form->input('GoldClub.content', 
+					array( 'type'=>'select', 
+					'options' => array('D'=>'Diabetes','P'=>'Perca de Peso', 'V'=>'Vida Saudável'), 
+					'label' =>'Selecione o conteúdo' 
+				) );
+				?>
 			</div>
 
 			<div class="control-group">
@@ -30,8 +42,14 @@
 			</div>
 
 			<div class="control-group">
-				<label for="GoldClub">Receber Informações?</label>
-				<?php echo $this->Form->input('GoldClub.receive_inf', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Receber Informações?', 'style' => 'width: 95%;')); ?>
+				<?php //echo $this->Form->input('GoldClub.receive_inf', array('label' => false, 'title' => 'Nome', 'data-rule-required' => 'true', 'placeholder' => 'Receber Informações?', 'style' => 'width: 95%;')); ?>
+
+				<?php echo $this->Form->input('GoldClub.receive_inf', 
+					array( 'type'=>'select', 
+					'options' => array('S'=>'Sim','N'=>'Não'), 
+					'label' =>'Receber informações?' 
+				) );
+				?>
 			</div>
 
 			<div class="control-group">
