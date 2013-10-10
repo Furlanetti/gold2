@@ -2,10 +2,10 @@
 
 App::uses('AuthComponent', 'Controller/Component');
 
-class CategoryPointSale extends AppModel {
-	public $name = 'CategoryPointsSale';  
+class CategoryRecipe extends AppModel {
+	public $name = 'CategoryRecipes';  
 
-    public $useTable = "category_points_sale";
+    public $useTable = "category_recipes";
 
     public $validate = array(
         'title' => array(

@@ -114,9 +114,16 @@
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>
+							</li>
+							<li <?php if(strpos($this->here, 'permission/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/permission/index/' ?>">
+									<i class="icon-double-angle-right"></i>
+									Permissões
+								</a>
 							</li>							
 						</ul>
 					</li>
+
 					<li <?php if(strpos($this->here, 'categoryPointsSale') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
 							<i class="icon-th-list"></i>
@@ -159,21 +166,21 @@
 							</li>							
 						</ul>
 					</li>				
-					<li <?php if(strpos($this->here, 'categoryRecipe') == true) echo 'class="active"' ?>>
+					<li <?php if(strpos($this->here, 'categoryRecipes') == true) echo 'class="active"' ?>>
 						<a href="#" class="dropdown-toggle">
 							<i class="icon-list"></i>
 							<span>Categoria Receita</span>
 							<b class="arrow icon-angle-down"></b>
 						</a>
 						<ul class="submenu">
-							<li <?php if(strpos($this->here, 'categoryRecipe/new') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/categoryRecipe/new/' ?>">
+							<li <?php if(strpos($this->here, 'categoryRecipes/new') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/categoryRecipes/new/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Adicionar
 								</a>
 							</li>
-							<li <?php if(strpos($this->here, 'categoryRecipe/index') == true) echo 'class="active"' ?>>
-								<a href="<?php echo $this->webroot . 'admin/categoryRecipe/index/' ?>">
+							<li <?php if(strpos($this->here, 'categoryRecipes/index') == true) echo 'class="active"' ?>>
+								<a href="<?php echo $this->webroot . 'admin/categoryRecipes/index/' ?>">
 									<i class="icon-double-angle-right"></i>
 									Gerenciar
 								</a>

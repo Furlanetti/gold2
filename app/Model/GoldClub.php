@@ -2,13 +2,13 @@
 
 App::uses('AuthComponent', 'Controller/Component');
 
-class CategoryPointSale extends AppModel {
-	public $name = 'CategoryPointsSale';  
+class GoldClub extends AppModel {
+	public $name = 'GoldClub';  
 
-    public $useTable = "category_points_sale";
+    public $useTable = "gold_club";
 
     public $validate = array(
-        'title' => array(
+        'name' => array(
             array(
                 'rule' => 'notEmpty',
                 'required' => true,
